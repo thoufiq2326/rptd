@@ -63,5 +63,4 @@ To Run:
 
 python detect_video_custom.py
 
-
 To Quit: Press the 'q' key on your keyboard.

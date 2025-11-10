@@ -6,7 +6,8 @@ model = YOLO('yolov8n.pt')
 
 # 2. Set up the "eyes" to read from "traffic.mp4"
 # Make sure you downloaded "traffic.mp4" into this folder
-cap = cv2.VideoCapture('traffic.mp4') 
+cap = cv2.VideoCapture('pedestrians.mp4') 
+
 
 # 3. This is a loop that will run until the video ends
 while True:
@@ -33,4 +34,4 @@ while True:
 
 # 8. Clean up
 cap.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() 
